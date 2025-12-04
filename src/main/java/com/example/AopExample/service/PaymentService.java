@@ -12,9 +12,8 @@ public class PaymentService {
         System.out.println("Payment successful!");
     }
 
-    public String getStatus(String txId) {
-        System.out.println("Getting status for " + txId);
-        return "COMPLETED";
+    public void refundPayment() {
+        System.out.println("Payment refunded");
     }
 }
 
